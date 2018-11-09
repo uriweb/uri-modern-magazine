@@ -5,15 +5,16 @@ Author: University of Rhode Island
 Author URI: https://today.uri.edu
 Description: URI Modern Magazine is a WordPress theme designed for the University of Rhode Island Magazine site. It is a child theme of URI Modern.
 Template: uri-modern
-Version: 0.1.0
+Version: 1.0.0
 License: GPL-3.0
 License URI: http://www.gnu.org/licenses/gpl.html
 Text Domain: uri
 Tags: education, theme-options
 
-@version v0.1.0
+@version v1.0.0
 @author Brandon Fuller <bjcfuller@uri.edu>
 
 */
+@import url("https://fonts.googleapis.com/css?family=Zilla+Slab:500|Hind:300");.architecture-features .entry-header h1.entry-title{font-family:"Hind", Arial, sans-serif;font-size:5rem;font-weight:300;max-width:500px}.architecture-currents .entry-header h1.entry-title{font-family:"Zilla Slab", "Lato", "Hind", sans-serif;font-size:2.6rem;letter-spacing:-.05rem;color:#4968a1}h1.contents-title{font-family:"Hind", Arial, sans-serif;font-size:3rem;font-weight:300;color:#333}h2.department-title{font-family:"Hind", Arial, sans-serif;font-weight:400;text-transform:uppercase;color:#666}.cl-overlay.share-with-us h1{font-family:"Zilla Slab", "Lato", "Hind", sans-serif;font-size:2.4rem;letter-spacing:-.05rem}.category-display{font-family:Hind, sans-serif;font-size:1rem}.author{font-style:italic}.lead-in{font-weight:bold}.photo-caption-contest-wrapper{background:#fff;margin-top:4rem;margin-bottom:4rem;border-top:1px solid #eee;border-bottom:1px solid #eee}.photo-caption-contest{padding-top:3rem;padding-bottom:3rem}.photo-caption-contest h2{font-family:"Zilla Slab", "Lato", "Hind", sans-serif;font-size:1rem;text-transform:uppercase}.photo-caption-contest img{width:100%;height:auto}@media screen and (min-width: 700px){.photo-caption-contest img{width:60%}}.photo-caption-contest .cl-button{max-width:initial;width:initial;padding:1rem 2rem}.photo-caption-contest:after{display:block;clear:both;content:''}
 
 /*# sourceMappingURL=map/style.css.map */

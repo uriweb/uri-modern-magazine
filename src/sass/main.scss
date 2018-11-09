@@ -3,3 +3,65 @@
    ============================== */
 
 @import 'partials/type';
+
+
+/* General */
+
+.category-display {
+	font-family: Hind, sans-serif;
+	font-size: 1rem;
+}
+
+
+.author {
+	font-style: italic;
+}
+
+.lead-in {
+	font-weight: bold;
+}
+
+
+/* Photo Caption Contest */
+
+.photo-caption-contest-wrapper {
+	background: #fff;
+	margin-top: 4rem;
+	margin-bottom: 4rem;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+}
+
+.photo-caption-contest {
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+
+.photo-caption-contest h2 {
+	font-family: "Zilla Slab", "Lato", "Hind", sans-serif;
+	font-size: 1rem;
+	text-transform: uppercase;
+}
+
+.photo-caption-contest img {
+	width: 100%;
+	height: auto;
+}
+
+@media screen and (min-width: 700px) {
+	.photo-caption-contest img {
+		width: 60%;
+	}
+}
+
+.photo-caption-contest .cl-button {
+	max-width: initial;
+	width: initial;
+	padding: 1rem 2rem;
+}
+
+.photo-caption-contest:after {
+	display: block;
+	clear: both;
+	content: '';
+}

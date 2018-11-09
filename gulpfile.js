@@ -32,8 +32,6 @@ var sass = require('gulp-sass');
 var sourcemaps = require('gulp-sourcemaps');
 var autoprefixer = require('autoprefixer');
 var postcss = require('gulp-postcss');
-var rename = require('gulp-rename');
-var path = require('path');
 var header = require('gulp-header');
 var shell = require('gulp-shell');
 

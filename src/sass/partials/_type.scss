@@ -1,3 +1,39 @@
 /* ==============================
    TYPE
    ============================== */
+
+@import url('https://fonts.googleapis.com/css?family=Zilla+Slab:500|Hind:300');
+
+.architecture-features .entry-header h1.entry-title {
+	font-family: "Hind", Arial, sans-serif;
+	font-size: 5rem;
+	font-weight: 300;
+	max-width: 500px;
+}
+
+.architecture-currents .entry-header h1.entry-title {
+	font-family: "Zilla Slab", "Lato", "Hind", sans-serif;
+	font-size: 2.6rem;
+	letter-spacing: -.05rem;
+	color: #4968a1;
+}
+
+h1.contents-title {
+	font-family: "Hind", Arial, sans-serif;
+	font-size: 3rem;
+	font-weight: 300;
+	color: #333;
+}
+
+h2.department-title {
+	font-family: "Hind", Arial, sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #666;
+}
+
+.cl-overlay.share-with-us h1 {
+	font-family: "Zilla Slab", "Lato", "Hind", sans-serif;
+	font-size: 2.4rem;
+	letter-spacing: -.05rem;
+}
