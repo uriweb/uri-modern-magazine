@@ -3,5 +3,24 @@
    ============================== */
 
 .architecture .architecture-department:nth-child(1) {
-    color: #ff0000;
+    color: #999999;
+    letter-spacing: 3px;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 2em;
+    margin-bottom: 0;  
+}
+
+.architecture .architecture-department{
+    color: #555;
+    letter-spacing: 1px;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top:0;
+    margin-bottom: 1.5em;  
+}
+
+.architecture .architecture-department .p{
+
 }
