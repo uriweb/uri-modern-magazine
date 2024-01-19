@@ -17,8 +17,8 @@ URI Modern Magazine is a WordPress theme designed for the University of Rhode Is
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/e6de87303ce14abcad7d2d4ed75d695f)](https://www.codacy.com/app/uriweb/uri-modern-magazine?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=uriweb/uri-modern-magazine&amp;utm_campaign=Badge_Grade)
 [![devDependencies Status](https://david-dm.org/uriweb/uri-modern-magazine/dev-status.svg "devDependencies status")](https://david-dm.org/uriweb/uri-modern-magazine?type=dev)
 
-Contributors: Brandon Fuller  
+Contributors: Brandon Fuller, Sarah Pucino  
 Tags: themes  
 Requires at least: 4.0  
 Tested up to: 4.9  
-Stable tag: 1.1.0  
+Stable tag: 1.2.0  
