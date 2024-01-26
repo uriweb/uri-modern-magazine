@@ -11,6 +11,12 @@
 	max-width: 800px;
 }
 
+@media screen and (max-width: 400px) {
+	.architecture-features .entry-header h1.entry-title{
+		font-size: 3rem;
+		line-height: 3.25rem;
+	}
+	}
 
 .architecture-currents .entry-header h1.entry-title {
 	font-family: "Lato", "Hind", Arial, sans-serif;
