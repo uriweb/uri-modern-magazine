@@ -23,7 +23,7 @@
 
 		$args = array(
 			'orderby'  => 'parent',
-			'order'    => 'ASC'
+			'order'    => 'ASC',
 		);
 
 		$post_architecture = get_terms( 'architecture', $args );
