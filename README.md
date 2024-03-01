@@ -27,4 +27,4 @@ Contributors: Brandon Fuller, Sarah Pucino
 Tags: themes  
 Requires at least: 4.0  
 Tested up to: 4.9  
-Stable tag: 1.2.2  
+Stable tag: 1.2.3  
