@@ -2,6 +2,12 @@
 
 URI Modern Magazine is a WordPress theme designed for the University of Rhode Island Magazine site. It is a child theme of URI Modern.
 
+## What's new in 1.2.2
+
+URI Modern Magazine 1.2.2 is a bug fix release.
+
+* Fixes the order of architecture tags so that the parent category is first
+
 ## How do I get set up?
 
 1. Make sure you have [URI Modern](https://github.com/uriweb/uri-modern) installed first
@@ -21,4 +27,4 @@ Contributors: Brandon Fuller, Sarah Pucino
 Tags: themes  
 Requires at least: 4.0  
 Tested up to: 4.9  
-Stable tag: 1.2.1  
+Stable tag: 1.2.2  
