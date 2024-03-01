@@ -26,7 +26,7 @@
 			'order'    => 'ASC',
 		);
 
-		$post_architecture = get_terms( 'architecture', $args );
+		$post_architecture = wp_get_object_terms( get_the_ID(), 'architecture', $args );
 
 		foreach ( $post_architecture as $p ) {
 			if ( ! empty( $p ) ) {
