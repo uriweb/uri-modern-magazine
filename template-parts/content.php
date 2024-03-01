@@ -21,7 +21,12 @@
 		<div class="architecture">
 		<?php
 
-		$post_architecture = get_the_terms( $the_post, 'architecture' );
+		$args = array(
+			'orderby'  => 'parent',
+			'order'    => 'ASC'
+		);
+
+		$post_architecture = get_terms( 'architecture', $args );
 
 		foreach ( $post_architecture as $p ) {
 			if ( ! empty( $p ) ) {
