@@ -88,7 +88,7 @@ gulp.task('issuesCSS', issuesCSS);
 
 function issuesCSS(done) {
 
-	gulp.src('./issues/**/*.scss')
+	gulp.src('./issues/src/**/*.scss')
 		.pipe(sass(sassOptions).on('error', sass.logError))
 		.pipe(concat('issues.css'))
         .pipe(postcss([ autoprefixer() ]))
@@ -136,7 +136,7 @@ function watcher(done) {
 	gulp.watch('./src/sass/**/*', styles);
 
   // watch for Issues CSS changes
-	gulp.watch('./issues/**/*.scss', styles);
+	gulp.watch('./issues/src/**/*', styles);
 
 	// watch for image changes
 	gulp.watch('./src/images/**/*', images);
