@@ -1,3 +1,275 @@
 /* ==============================
    SPRING 2024 ISSUE
    ============================== */
+
+   /* HOMEPAGE */
+
+.river h1{
+  font-weight:300;
+  font-size:1.5em;
+}
+
+@media screen and (min-width: 800px){
+.cl-hero.super h1{
+    font-size: 5rem;
+}
+}
+
+p.end-game{
+  font-family: "Hind",Arial,sans-serif;
+  font-size: .9rem;
+  line-height: 1.2;
+}
+
+.breakout.block#skulls{
+  background: #ffffff;
+}
+
+.cl-hero.tapestry p{
+  text-shadow: 4px 4px 5px rgba(0,0,0, 0.7);
+}
+
+
+.cl-hero.tapestry a{
+  color: #fff;
+  text-decoration: underline;
+}
+
+.cl-hero.tapestry a:hover{
+  color: rgba(255,255,255, 0.7);
+  text-decoration: underline;
+}
+
+
+/* MISKELLEY */
+
+.wp-block-group.miskelleys{
+  background-color: #b1d8d8;
+  width: 100vw;
+  max-width: initial;
+  position: relative;
+  left: 50%;
+  margin-left: -50vw;
+  padding-top:4rem;
+  padding-bottom:3rem;
+}
+
+p.semicolon{
+  font-family: "Hind",Arial,sans-serif;
+  font-size:1.2rem;
+  color:#333;
+}
+
+@media screen and (max-width: 475px) {
+  div.semicolon-column {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 600px){
+  .miskelley-quote.cl-quote blockquote, .cl-quote cite {
+    min-width: 0;
+  }
+}
+
+.miskelley-quote{
+  font-family: "Hind",Arial,sans-serif;
+  color: #0971ba;
+}
+
+/* CVSA */
+
+.cvsa-quote{
+  font-family: "Hind",Arial,sans-serif;
+  color: #282f7c;
+}
+
+
+@media screen and (min-width: 600px){
+  .cvsa-quote.cl-quote blockquote, .cl-quote cite {
+    min-width: 0;
+    width: 80%;
+  }
+}
+
+.cvsa-text{
+  color: #ffffff;
+}
+
+.cvsa-text a{
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.cvsa-title{
+  color:#ffcb04;
+  font-family: "Hind",Arial,sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  line-height: 2rem;
+  font-weight:700;
+}
+
+.wp-image-12089{
+  float:left;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+}
+
+.breakout.block#cvsa-legacy{
+  background: #a83033;
+}
+
+
+/* HIGH SCHOOL SCIENCE */
+
+.upegui-quote{
+  font-family: "Hind",Arial,sans-serif;
+  color: #130e3c;
+}
+
+@media screen and (min-width: 600px){
+  .upegui-quote.cl-quote blockquote, .cl-quote cite {
+    min-width: 0;
+    width: 80%;
+  }
+}
+
+.cl-panel.upegui-panel{
+  background: #fafafa;
+  padding-top:1rem;
+  padding-bottom:.8rem;
+}
+
+
+.cl-panel.upegui-panel article p{
+  color: #130e3c;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  font-family: "Hind",Arial,sans-serif; 
+}
+
+
+.cl-panel.upegui-panel article p#upegui-cite{
+  font-size: 80%;
+  color:#555;
+}
+
+.postid-11851 .cl-panel-super.reverse .cl-panel-super-text{
+  padding: 20vh 8vw 3rem!important;
+}
+
+
+
+/* RIVERS */
+
+.rivers-quote{
+  font-family: "Hind",Arial,sans-serif;
+  color: #292f7c;
+}
+
+@media screen and (min-width: 600px){
+  .rivers-quote.cl-quote blockquote, .cl-quote cite {
+    min-width: 0;
+    width: 80%;
+  }
+}
+
+
+/* BIG IDEAS. BOLD PLANS. */
+
+.campaign-quote{
+  font-family: "Hind",Arial,sans-serif;
+  color: #0F5589;
+}
+
+#tiled-imgs{
+  margin-bottom: 1rem;
+}
+
+.breakout.block#campaign{
+  background: #002147;
+  color: #fff;
+}
+
+.breakout.block#campaign h1{
+  color: #c0ddf2;
+}
+
+.cl-metric.dark.campaign{
+  background: #002147;
+}
+
+.wp-block-image.gouin-img{
+  margin-right: 2rem;
+}
+
+
+/* EXTRAS */
+
+.syllabus-text a{
+  color: #30557e;
+  text-decoration: underline;
+}
+
+.syllabus-title{
+  color:#30557e;
+  font-family: "Hind",Arial,sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  line-height: 2rem;
+  font-weight:700;
+}
+
+.syllabus-sub-title{
+  font-family: "Hind",Arial,sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  line-height: 2rem;
+  font-weight:700;
+  font-size:.80em;
+}
+
+.breakout.block#syllabus{
+  background: #a83033;
+}
+
+.syllabus-quote{
+  font-family: "Hind",Arial,sans-serif;
+  color: #30557e;
+}
+
+@media screen and (min-width: 600px){
+  .syllabus-quote.cl-quote blockquote, .cl-quote cite {
+    min-width: 0;
+    width: 80%;
+  }
+}
+
+p.honors{
+  font-family: "Hind",Arial,sans-serif;
+  font-weight: 300;
+  margin-top:1em;
+}
+
+#editor-img{
+  float:left!important;
+  padding-right: 2rem;
+  margin-bottom:0;
+
+}
+
+.wp-block-image img.wp-image-12893{
+  margin-bottom:1rem;
+}
+
+.breakout.block#feedback p{
+  color: #000000;
+}
+
+@media screen and (min-width: 455px){
+.wp-block-image .alignright img.wp-image-12491{
+    display:block;
+  float: none!important;
+    margin:0 auto;}
+}

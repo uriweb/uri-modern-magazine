@@ -1,3 +1,196 @@
 /* ==============================
    SPRING 2026 ISSUE
    ============================== */
+
+   /* FOOD WASTE */
+
+.food-spacer_dots_o{
+    height: 0px;
+    background: none;
+    border: none;
+    border-top: 8px dotted #e94e29;
+    margin-top: 0;
+}
+
+.food-spacer_dots{
+    height: 0px;
+    background: none;
+    border: none;
+    border-top: 10px dotted #005099;
+    margin-top: 0;
+}
+
+
+.food-card{
+      position: relative;
+      background-color: #fafafa;
+      color: #000000;
+      padding: 12px;
+      margin-bottom: 5px;
+}
+
+.food-card-spacer{
+      height: 5px;
+      color: #e94f29;
+      background-color: #e94f29;
+      width: 50%;
+  }
+  
+
+.food-content{
+      padding:6px;
+}
+
+.food-content h3{
+      font-size: 1.3rem;
+      color: #000000;
+      margin-bottom: 1.3rem;
+      line-height: 30px;
+}
+
+.food-content p{
+      font-family:"Hind",Arial,sans-serif;
+      font-size: 1rem;
+      line-height: 20px;
+}
+
+.food-content a{
+      color: #005099;
+      text-decoration: underline;
+      font-weight: 600;
+}
+
+.food-content a:hover{
+      color: rgba(0, 80, 153, .6);
+      text-decoration: underline;
+}
+
+
+.food-spacer{
+      height: 3px;
+      color: #005099;
+      background-color: #005099;
+}
+
+#quote-waste{
+      font-family:"Georgia",Arial,sans-serif;
+      font-size: 2.25em;
+      vertical-align: middle;
+      color: #e94f29;
+}
+
+h2.food-waste{
+      margin-bottom: 1rem;
+      color: #005099;
+      text-transform: uppercase;
+}
+
+@media only screen and (max-width: 520px){
+.squiggle-img{
+      width: 70%;
+}
+}
+
+@media only screen and (max-width: 600px){
+  .food-cards{
+      display: block;
+  }
+}
+
+
+/*  BEE FRIENDLY  */
+
+.bee-card{
+      background-color: #5b622b;
+      color: #ffffff;
+      border-radius: 5px;
+      padding: 12px;
+      margin-bottom: 5px;
+}
+
+.bee-content{
+      padding:6px;
+}
+
+.bee-content h3{
+      font-weight: 400;
+      font-size: 1.3rem;
+      color: #fff;
+      margin-bottom: 1.3rem;
+      line-height: 30px;
+}
+
+.bee-content p{
+      font-family:"Hind",Arial,sans-serif;
+      font-size: 1.10rem;
+      line-height: 20px;
+}
+
+.bee-content a{
+      color: #ffffff;
+      text-decoration: underline;
+}
+
+.bee-content a:hover{
+      color: rgba(255, 255, 255, .5);
+      text-decoration: underline;
+}
+
+.bee-img{
+      border-radius: 3px;
+}
+
+.bee-spacer{
+      height: 3px;
+      color: #5b622b;
+      background-color: #5b622b;
+}
+
+
+/* STUDENT JOURNALISTS */
+
+.image-border{
+      border: 1.5px solid #000;
+}
+
+.journalists-spacer_lg{
+      height: 3px;
+      color: #000;
+      background-color: #000;
+      margin:0;
+}
+
+.journalists-spacer_sm{
+      height: 1px;
+      color: #000;
+      background-color: #000;
+      margin: 1rem 0;
+}
+
+.journalists-spacer_lg-short{
+      height: 3px;
+      color: #000;
+      width: 50%;
+      background-color: #000;
+      margin:0;
+}
+
+.journalists-spacer_sm-short{
+      height: 1px;
+      color: #000;
+      width: 50%;
+      background-color: #000;
+      margin: 1rem 0;
+}
+
+#quote-spring26{
+      font-family:"Georgia",Arial,sans-serif;
+      font-size: 2.25em;
+      vertical-align: middle;
+      color:#c14706;
+}
+
+
+.cl-hero .cl-hero-proper .stone-wall{
+      background: #fafafa;
+}

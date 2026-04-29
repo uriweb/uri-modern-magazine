@@ -1,3 +1,146 @@
 /* ==============================
    FALL 2025 ISSUE
    ============================== */
+
+   /* SUBMERSION COURSE */
+
+.cl-hero.super.submersion h1{
+    text-transform: uppercase;
+    font-size: 4.25rem;
+    font-weight: 600;
+    letter-spacing: 3px;
+} 
+
+@media (max-width: 450px) {
+     .cl-hero.super.submersion h1{
+         font-size:2rem;
+     }
+     }
+
+.cl-hero.super.dive-hero h1{
+    text-transform: uppercase;
+    font-size: 4.25rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+} 
+
+@media (max-width: 450px) {
+     .cl-hero.super.dive-hero h1{
+         font-size:2.5rem;
+     }
+     }
+
+.dive-highlight{
+    color:#80c7ec;
+    font-weight:900;
+}
+
+.cl-hero.super.descend-image .cl-hero-proper{
+    min-height: 100vh!important;
+}
+
+#quote-diving{
+    font-family: "Georgia",Arial,sans-serif;
+    font-size: 2.25em;
+    vertical-align: middle;
+    color: #80c7ec;
+}
+
+.cl-quote#diving{
+    border-top: 1px solid rgba(255, 255, 255, .5);
+    border-bottom: 1px solid rgba(255, 255, 255, .5); 
+}
+
+.breakout.block#dive-quote{
+    background: rgba(255, 255, 255, 0)
+}
+
+
+/* STRONGER TOGETHER - UNDERWATER TECH */
+
+.breakout.block#underwater-tech{
+    background: #30465a;
+}
+
+.cl-quote#ut-fancy{
+    border-top: 1px solid #ed3115;
+    border-bottom: 1px solid #ed3115; 
+}
+
+#quote-gray{
+    font-family: "Georgia",Arial,sans-serif;
+    font-size: 2.25em;
+    vertical-align: middle;
+    color: #757575;
+}
+
+#quote-ut{
+font-family: "Georgia",Arial,sans-serif;
+    font-size: 2.25em;
+    vertical-align: middle;
+    color: #ed3115;
+}
+
+h2#underwater-tech{
+    color:#30465a;
+    font-weight:700;
+}
+
+p#ut-intro.type-intro{
+    color:#30465a;
+    font-weight:500;
+}
+
+.cl-hero.super.underwater-tech h1{
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: 400;
+} 
+
+.cl-hero.super.underwater-tech p{
+    text-transform: uppercase;
+    font-weight:600;
+    font-size: 5rem;
+    line-height: 5.5rem;
+    color:rgba(255,255,255,.7)
+}
+
+@media (max-width: 680px) {
+    .cl-hero.super.underwater-tech h1{
+        font-size: 2rem;
+        line-height: 2.3rem;
+    }
+    .cl-hero.super.underwater-tech p{
+        font-size:3.5rem;
+        line-height:3.6rem;
+    }
+}
+
+
+@media (max-width: 510px) {
+    .cl-hero.super.underwater-tech p{
+        font-size:2.5rem;
+        line-height:2.8rem;
+    }
+}
+    
+
+/* DEPARTMENT STORIES */
+
+@media (max-width: 450px) {
+     .breakout.block#thomakos p{
+         font-size:.85em;
+     }
+     }
+
+p.fa25-pictured{
+    font-size:1rem;
+    font-family: "Hind",Arial,sans-serif;
+}
+
+
+/* DIGITAL ONLY */
+
+#bubblegum{
+  background-color:#f9ebef;
+}
