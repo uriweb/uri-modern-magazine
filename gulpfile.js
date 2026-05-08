@@ -83,6 +83,23 @@ function styles(done) {
   //console.log('styles ran');
 }
 
+// Issues CSS
+gulp.task('issuesCSS', issuesCSS);
+
+function issuesCSS(done) {
+
+	gulp.src('./issues/src/**/*.scss')
+		.pipe(sass(sassOptions).on('error', sass.logError))
+		.pipe(concat('issues.css'))
+        .pipe(postcss([ autoprefixer() ]))
+		.pipe(header('/* issues built */'))
+    .pipe(sourcemaps.write('./map'))
+		.pipe(gulp.dest('./issues'));
+
+	done();
+	//console.log('issues css ran');
+}
+
 // minify new images
 gulp.task('images', images);
 
@@ -118,6 +135,9 @@ function watcher(done) {
 	// watch for Theme CSS changes
 	gulp.watch('./src/sass/**/*', styles);
 
+  // watch for Issues CSS changes
+	gulp.watch('./issues/src/**/*', styles);
+
 	// watch for image changes
 	gulp.watch('./src/images/**/*', images);
     
@@ -128,7 +148,7 @@ function watcher(done) {
 }
 
 gulp.task( 'default',
-	gulp.parallel('images', 'scripts', 'styles', 'sniffs', 'watcher', function(done){
+	gulp.parallel('images', 'scripts', 'styles', 'issuesCSS', 'sniffs', 'watcher', function(done){
 		done();
 	})
 );

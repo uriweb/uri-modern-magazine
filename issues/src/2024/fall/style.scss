@@ -1,0 +1,179 @@
+/* ==============================
+   FALL 2024 ISSUE
+   ============================== */
+
+   /* HOMEPAGE & EXTRAS */
+
+   .breakout.block#excellence-awards{
+      background: #e2b868;
+    }
+  
+    .ristories{
+      font-size:80px;
+    }
+
+    #quote-imondi{
+      font-family: "Georgia",Arial,sans-serif;
+      font-size: 2.25em;
+      vertical-align: middle;
+      color: #b23b8a;
+    }
+
+    @media only screen and (max-width: 425px) {
+      #quote-body-mobile{
+        font-size: 24px;
+        line-height: 35px;
+      }
+    }
+
+    /* METCALF SCIENCE COMMUNICATION */
+
+    .metcalf-spacer{
+      height: 2px;
+      border: #728547;
+      color: #728547;
+      background: #728547;
+      width:20%;
+    }
+
+    #metcalf-breakout{
+      background-color: #efeeed;
+    }
+
+
+    #metcalf-breakout a{
+      color: #0e2c5e;
+      text-decoration: underline;
+    }
+
+    #metcalf-breakout a:hover{
+      color: #345996;
+      text-decoration: underline;
+    }
+
+    @media only screen and (max-width: 425px) {
+      #metcalf-breakout h1{
+        line-height: 48px;
+      }
+      .type-intro{
+        line-height: 35px;
+      }
+    }
+
+
+    /* EXPLORING FORGIVENESS */
+
+    .freedom-spacer{
+      height: 2px;
+      border: #fcac09;
+      color: #fcac09;
+      background: #fcac09;
+      width:20%;
+    }
+
+    #quote-freedom{
+    font-family: "Georgia",Arial,sans-serif;
+      font-size: 2.25em;
+      vertical-align: middle;
+      color: #d92d3b;
+    }
+
+    #freedom-breakout{
+      background-color: #fff2dd;
+    }
+
+
+    /* WATER FOR THE WORLD */
+
+    .breakout.block#bubbles{
+       background-image: url("https://web.archive.org/web/20250612072431im_/https://www.uri.edu/magazine/wp-content/uploads/magazine/sites/13/2024/11/fa24_feature_water_bubble_background_v4.png");
+    padding-top: 3em;
+      padding-bottom: 1em;
+       background-size: cover;
+    }
+
+    @media screen and (max-width: 475px) {
+      .breakout.block#bubbles{
+        background-image: none;
+        background-color: #fafafa;
+        padding-top: 1em;
+        padding-bottom: 0;
+      }
+
+    .wfw-hero h1{
+      font-size: 30px!important;
+      }
+
+    }
+
+    .water-profile{
+      font-family: "Hind", "Arial", sans-serif;
+      color:#303a7b;
+    }
+
+    .postid-15127 .cl-quote blockquote { 
+      font-family: "Hind",Arial,sans-serif!important;
+      color:#303a7b;
+    }
+
+    .postid-15127 h2{
+      line-height: 35px;
+    }
+
+
+    .wfw-hero h1{
+      font-size: 60px;
+      text-align: center;
+      max-width: 900px;
+    }
+
+
+    /* OPIOID CRISIS */
+
+    .lifesaver-heading{
+      font-weight: 400;
+    }
+
+    #quote-lifesavers{
+      font-family: "Georgia",Arial,sans-serif;
+      font-size: 2.25em;
+      vertical-align: middle;
+      color: #617335;
+    }
+
+    #lifesavers-breakout{
+      border-left: 8px solid #7a5231;
+      padding:2em;
+      background-color: #617335;
+    }
+
+    #lifesavers-breakout p{
+      color: #fff;
+    }
+
+    #lifesavers-breakout h2{
+      color: #fff;
+    }
+
+
+    #lifesavers-breakout a{
+      color: #fff;
+      text-decoration: underline;
+      font-weight: 600;
+
+    }
+
+    #lifesavers-breakout a:hover{
+      color: #dee9c5;
+    }
+
+
+    .postid-15123 h2.hotspot-title {
+      line-height: 30px;
+      margin-bottom: 1rem;
+    }
+
+    .postid-15123 .hotspot-content p{
+      font-size: 16px;
+      line-height: 22px;
+}

@@ -1,0 +1,46 @@
+/* ==============================
+      DRAW ATTENTION PLUGIN
+   ============================== */
+
+   .hotspot-content{
+  font-family: "Hind",Arial,sans-serif;
+  font-size:.9rem;
+  line-height: 1.2rem;
+}
+
+.hotspot-content p{
+  line-height: 1.2rem;
+}
+
+body .leaflet-pane.leaflet-tooltip-panel{
+  display: none;
+}
+
+.entry-content .hotspot-title{
+  margin-top: 0;
+  padding-top: 0;
+  text-align: left!important;
+  margin-bottom:0;
+}
+
+.hotspot-content p.lead{
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 0;
+  margin-top: 1.5rem;
+}
+
+hr.lead{
+  border-top: 1px solid;
+  color: #febe23;
+  width: 2rem;
+  margin: .5rem 0;
+  background: none;
+}
+
+hr.title{
+  border-top: .75px solid;
+  color: #febe23;
+  margin: 1rem 0;
+  background: none;
+}
