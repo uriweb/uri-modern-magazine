@@ -1,0 +1,332 @@
+/* ==============================
+        GENERAL STYLES
+   ============================== */
+
+    /* TEXT & FONT STYLES */
+
+.sans-serif-text{
+    font-family: "Hind",Arial,sans-serif;
+    font-size:.95em;
+    line-height: 34px;
+}
+
+p.feature-caption.sans-serif{
+    font-family: "Hind",Arial,sans-serif;
+    font-size:1.75rem;  
+}
+
+.feature-caption.fancy-caption{
+    font-family: "Hind",Arial,sans-serif;
+    font-size: 1rem;
+    line-height: 125%;
+}
+
+.homepage-promo {
+    font-size: .8rem;
+    color: #555;
+}
+
+.line-height-sm{
+    line-height: 1.5em;
+}
+
+p.sans-serif{
+  font-family: "Hind",Arial,sans-serif;
+  font-size:1.2rem;
+}
+
+.special-text a{
+  color: #30557e;
+  text-decoration: underline;
+}
+
+.special-title{
+  font-family: "Hind",Arial,sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  line-height: 2rem;
+  font-weight:700;
+  font-size: 1.3rem;
+}
+
+.special-sub-title{
+  font-family: "Hind",Arial,sans-serif;
+  margin-bottom: 0;
+  line-height: 2rem;
+  font-weight:700;
+  font-size:.90em;
+}
+
+h1.special-heading{
+  font-weight: 500;
+}
+
+.keaney-heading{
+  color: #2277b3;
+}
+
+.feature-caption.photo-credit{
+  font-family: "Hind",Arial,sans-serif;
+  font-size:.95rem;
+  text-transform: uppercase;
+}
+
+.p-question{
+  font-family:"Hind",Arial,sans-serif;
+  font-size:1.25rem;
+}
+
+
+/* LAYOUT STYLES */
+
+.centered-container{
+  margin: 0 auto;
+  text-align:center;
+}
+
+.breakout{
+  width: 100vw !important;
+  position: relative !important;
+  left: 50% !important;
+  margin-left: -50vw !important;
+}
+
+#uri-blue-breakout{
+  border-left: 5px solid #2277b3;
+  background-color: #d6ebfb;
+  padding:2em;
+}
+
+.keaney-spacer{
+  height: 2px;
+  color: #2277b3;
+   width:20%;
+  background-color: #2277b3;
+}
+
+.indented-block {
+  margin-left: 50px;
+}
+
+@media screen and (max-width: 500px){
+  .indented-block {
+  margin-left: 30px;
+}
+}
+
+.compact{
+  margin: 0;
+}
+
+
+/* QUOTE STYLES */
+
+#quote-keaney{
+font-family: "Georgia",Arial,sans-serif;
+  font-size: 2.25em;
+  vertical-align: middle;
+  color: #2277b3;
+}
+
+.sans-serif-quote{
+  font-family: "Hind",Arial,sans-serif;
+}
+
+.block-quote{
+  font-family: "Charter","Georgia",serif;
+  font-size: 1.75rem;
+  font-style: italic;
+}
+
+@media screen and (max-width: 500px){
+  .block-quote{
+  font-family: "Charter","Georgia",serif;
+  font-size: 1.3rem;
+  font-style: italic;
+  line-height: 1.5;
+}
+}
+
+/* Fix for block quotes on mobile view */
+
+@media only screen and (min-width: 780px){
+  .cl-quote blockquote{
+    width: 50%;
+    min-width: 380px;
+  }
+}
+
+
+/* CASE BANNER */
+
+.case-banner{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.case-banner.case-gold {
+    background: linear-gradient(to top right, #ffca1b, #cd7600);
+  }
+
+
+.case-banner a {
+    position: relative;
+    font-family: "Hind", "Arial", sans-serif;
+    color: #fff;
+    padding-left: 28px;
+}
+
+.case-banner a:before{
+    position: absolute;
+    left: 0;
+    top: 2px;
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-image: url(https://web.archive.org/web/20250612072431im_/https://www.uri.edu/wp-content/uploads/home/2020/06/case-award-picto.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% auto;
+}
+
+.case-banner a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+
+
+/* PROMO BANNERS */
+
+.cl-promo.reader-survey{
+  margin-bottom:0;
+}
+
+.cl-promo.rhody-plate .cl-promo-micro-content-wrapper{
+  background: #2277b3;
+}
+
+
+/* FEEDBACK */
+
+.feedback-body{
+      font-family: "Hind",Arial,sans-serif;
+  font-size:.95em;
+  line-height: 34px;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+.feedback-attribute{
+  font-family: "Hind",Arial,sans-serif;
+  color: #555;
+  font-size:.95em;
+  font-weight:600;
+  
+}
+
+.feedback-title{
+  font-family: "Hind",Arial,sans-serif;
+  margin-bottom: 0;
+  line-height: 2rem;
+  font-weight:700;
+  font-size: 1.3rem;
+}
+
+
+
+/* YOU CAN QUOTE ME */
+
+#quote{
+font-family: "Georgia",Arial,sans-serif;
+  font-size: 2.25em;
+  vertical-align: middle;
+}
+
+.quote-me{
+  border-top: none;
+  border-bottom: none;
+  
+}
+
+p.quote-body{
+  font-size: 1.25em;
+  line-height: 45px;
+}
+
+p.quote-header{
+  font-family: "Hind",Arial,sans-serif;
+  line-height: 2rem;
+  font-weight:600;
+  font-size:.90em;
+  color: #888;
+}
+
+
+p.quote-cite{
+  font-family: "Hind",Arial,sans-serif;
+  line-height: 2rem;
+  font-weight:500;
+  font-size:.90em;
+  color: #888;
+}
+
+
+/* FULL IMAGE BACKGROUND SECTION */
+
+.container#impact-full-img{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+   padding-top: 4em;
+   padding-bottom: 3em;
+}
+  
+.impact .body-content#impact-full-img p#eyebrow{
+   font-family: Hind, Arial, sans-serif;
+   color: #fff;
+}
+  
+.body-content#impact-full-img h2{
+   font-family: Hind, Arial, sans-serif;
+   color: #fff;
+   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.7);
+   line-height: 1.25em;
+   font-size: 2rem;
+}
+
+.body-content#impact-full-img highlight{
+   font-size: 2.7rem;
+   font-weight:300;
+}
+    
+.body-content#impact-full-img p{
+   font-family: Hind, Arial, sans-serif;
+   color: #fff;
+   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.7);
+}
+    
+@media screen and (min-width:250px) and (max-width:780px) {
+.container#impact-full-img::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Image overlay */
+}
+
+.body-content#impact-full-img{
+    z-index: 1;
+     }
+}
+
+@media screen and (min-width:250px) and (max-width:480px) {
+.container#impact-full-img{
+    padding: 0;
+      }
+}

@@ -1,0 +1,170 @@
+/* ==============================
+   SUMMER 2024 ISSUE
+   ============================== */
+
+/* HOMEPAGE & EXTRAS */
+
+p.convergence{
+  font-family: "Hind",Arial,sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.2;
+}
+
+.breakout.block#wonder-space{
+  background: #d2e3e9;
+}
+
+/* CAPTION THIS */
+
+.postid-13550 .quote-body{
+  margin-bottom: 1rem;
+}
+
+.wp-image-14142{
+  border: 1px solid #bbb;
+}
+
+/* AMPLIFYING BLACK WOMEN */
+  
+  #quote-amplify{
+  font-family: "Georgia",Arial,sans-serif;
+  font-size: 2.25em;
+  vertical-align: middle;
+  color: #3c4f82;
+}
+
+hr.amplify {
+  color: #3c4f82;
+}
+
+#quote-moran{
+  font-family: "Georgia",Arial,sans-serif;
+  font-size: 2.25em;
+  vertical-align: middle;
+  color: #2a4525;
+}
+
+p.quote-body-amplify{
+  font-size: 1.25em;
+  line-height: 45px;
+  font-family: "Hind",Arial,sans-serif;
+  font-weight:300;
+}
+
+
+/* BRAIN PUZZLE */
+
+#smart-food{
+  border-left: 5px solid #333399;
+  background-color: #d4d4ea;
+  padding:2em;
+}
+
+#ryan{
+  background-color: #333399;
+  padding:2em;
+}
+
+#quote-brain{
+  font-family: "Georgia",Arial,sans-serif;
+  font-size: 2.25em;
+  vertical-align: middle;
+  color: #333399;
+}
+
+.brain-subhead{
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 400;
+    font-family: "Hind",Arial,sans-serif;
+  margin-bottom: 0;
+}
+
+.puzzle-links{
+  font-family: "Hind",Arial,sans-serif;
+  margin-bottom: 0;
+  line-height: 1.5rem;
+  font-weight:700;
+  font-size:.90em;
+  color: #333399;
+  margin-top:.5em;
+}
+
+.puzzle-imgs:hover{
+  transform: scale(1.03) translate3d(0,0,0);
+  box-shadow: 0px 3px 8px rgba(0,0,0,.2);
+}
+
+@media screen and (max-width: 475px) {
+  .puzzle-imgs{
+    margin-bottom: 2rem;
+  }
+}
+
+h1.brain-heading{
+  font-size: 3em;
+}
+
+h2.brain-heading{
+  margin-bottom: .5em;
+}
+
+hr.wp-block-separator.brain-heading {
+  background-color: #9fc655!important;
+  height:4px;
+  width: 70%
+}
+
+/* SEA SHANTIES */
+
+#quote-shanties{
+  font-family: "Georgia",Arial,sans-serif;
+  font-size: 2.25em;
+  vertical-align: middle;
+  color: #333;
+}
+
+p.quote-body-shanties{
+  font-size: 1.15em;
+  line-height: 42px;
+  font-family: "Charter",Georgia,serif;
+  font-weight:300;
+  color: #003366;
+}
+
+p.intro-shanties{
+  font-size: 1.5em;
+  line-height: 43px;
+  font-family: "Charter",Georgia,serif;
+  font-weight:300;
+  color: #003366;
+}
+
+.breakout.block#shanties{
+   background-image: url("https://www.uri.edu/magazine/wp-content/uploads/magazine/sites/13/2024/06/su24_feature_shanties_musicbkg_v5.jpg");
+   padding-top: 3em;
+   padding-bottom: 0;
+   background-size: cover;
+}
+
+
+@media screen and (max-width: 475px) {
+  .breakout.block#shanties{
+    background-image: none;
+    background-color: #fafafa;
+  }
+}
+
+
+/* FLOOD WATCH */
+
+hr.floods {
+  color: #4892a2;
+}
+
+#quote-floods{
+  font-family: "Georgia",Arial,sans-serif;
+  font-size: 2.25em;
+  vertical-align: middle;
+  color: #4892a2;
+}

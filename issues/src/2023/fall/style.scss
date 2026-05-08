@@ -1,0 +1,115 @@
+/* ==============================
+   FALL 2023 ISSUE
+   ============================== */
+
+   /* HOMEPAGE */
+
+.postid-10426 .cl-hero .block {
+  text-shadow: 0 0 1rem rgba(0,0,0,0.5);
+}
+
+/* YOU CAN QUOTE ME */
+
+  p.context-body{
+    font-family: "Hind",Arial,sans-serif;
+    font-size:1.8rem;
+  }
+
+  p.context-header{
+    font-family: "Hind",Arial,sans-serif;
+    font-size:1.2rem;
+    color:#999;
+  }
+
+  p.context-cite{
+    font-family: "Hind",Arial,sans-serif;
+    font-size:1.2rem;
+    color:#555;
+  }
+
+
+/* FOOTBALL 1973 */
+
+.postid-11697 .cl-quote blockquote { 
+  font-family: "Hind",Arial,sans-serif!important;
+  color:#2277b3;
+}
+
+
+/* GOOD BUSINESS */
+
+.postid-11213 .cl-hero h1{
+  color:#006464!important;
+}
+
+.postid-11213 .cl-quote blockquote { 
+  color:#006464;
+}
+
+/* PIT MUSICIANS */
+
+.postid-10571 h2{
+  color:#a73731!important;
+}
+
+.postid-10571 .cl-panel article{
+  background-color:#000000;
+}
+
+.postid-10571 .cl-panel p{
+  color:#a8b377;
+  font-style:italic;
+  padding:1em 2em;
+  font-size:1.3em;
+  overflow:hidden;
+}
+
+.full-width {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+.postid-10571 h1.entry-title {
+  max-width: 800px!important;
+}
+
+@media only screen and (max-width: 400px) {
+  .postid-10571 .cl-panel p {
+    font-size: 1.1rem;
+  }
+}
+
+
+/* QUOTE STYLES */
+
+.postid-10995,.postid-11003,.postid-11205,.postid-11202,.postid-11213,.cl-quote blockquote {
+  font-family: "Hind",Arial,sans-serif!important;
+}
+
+
+/* ARCTIC */
+
+.postid-11205 .cl-quote blockquote { 
+  color:#256daa;
+}
+
+
+/* TOXINS */
+
+.postid-11202 .cl-quote blockquote { 
+  color:#62733b;
+}
+
+
+/* COLORFUL LINEUP */
+
+.postid-10430 p.pullquote {
+  font-family: "Hind",Arial,sans-serif!important;
+  font-size: 108%;
+  padding: 30px 50px 30px 50px;
+  font-weight: 700;
+}

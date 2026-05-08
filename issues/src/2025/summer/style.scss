@@ -1,0 +1,156 @@
+/* ==============================
+   SUMMER 2025 ISSUE
+   ============================== */
+
+   /* HEIST */
+
+    #amoreQuotes{
+      padding-left:2em;
+    }
+
+    #heist .cl-quote{
+      margin-bottom:0;
+    }
+
+    #heist p.quote-body-amplify {
+      font-size: 1.25em;
+      line-height: 45px;
+      font-family: "Hind", Arial, sans-serif;
+      font-weight: 300;
+   }
+
+    .breakout.block#heist{
+      background: #000;
+    }
+
+    #amoreList{
+      border-left: 3px solid #a67c00;
+    }
+
+
+    /* LAND GRANT UNIVERSITY */
+
+    .postid-17485 .cl-hero.super p{
+      font-size: 2.5rem;
+      font-weight:700;
+      line-height: 2.8rem;
+    }
+
+    @media screen and (min-width: 800px){
+      .postid-17485 .cl-hero.super p{
+      font-size: 4rem;
+      font-weight:700;
+      line-height:4.5rem;
+    }
+    }
+
+    .postid-17485 .cl-hero.super h1{
+      font-size: 1rem;
+      letter-spacing: 3px;
+      line-height: 2rem;
+    }
+
+    @media screen and (min-width: 800px){
+      .postid-17485 .cl-hero.super h1{
+      font-size: 2rem;
+      letter-spacing: 3px;
+      line-height: 4rem;
+      margin-bottom: 1rem;
+    }
+    }
+
+    .breakout.block#landGrant{
+      background: #5d935e;
+    }
+
+    .breakout.block#landGrant p{
+      margin-top: 1.5em;
+      padding-left: 15px;
+      padding-right:15px;
+    }
+
+    div.landGrantLinks p{
+      color:#fff;
+      font-family: "Hind",Arial,sans-serif;
+      font-size: 1.2rem;
+    }
+
+    div.landGrantLinks a{
+      color:#fff;
+      font-family: "Hind",Arial,sans-serif;
+      font-size: 1.2rem;
+      text-decoration:underline;
+    }
+
+    div.landGrantLinks a:hover{
+      color:#a0c1a1;
+    }
+
+    .landGrant-spacer{
+      height: 1px;
+      color: #fff;
+      background-color: #fff;
+    }
+
+
+    /* AMERICAN STORYTELLERS */
+
+    .postid-17429 .cl-hero.super p{
+      font-size: 2.5rem;
+      font-weight:700;
+      line-height: 2.8rem;
+    }
+
+    @media screen and (min-width: 800px){
+      .postid-17429 .cl-hero.super p{
+      font-size: 5rem;
+      font-weight:700;
+      line-height:5.5rem;
+    }
+    }
+
+    .postid-17429 .cl-hero.super h1{
+      font-size: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      line-height: 2rem;
+    }
+
+    @media screen and (min-width: 800px){
+      .postid-17429 .cl-hero.super h1{
+      font-size: 2rem;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      line-height: 4rem;
+      margin-bottom: 1rem;
+    }
+    }
+
+    .hoops-spacer{
+      height: 1px;
+      color: #be773c;
+      width:20%;
+      background-color: #be773c;
+    }
+
+
+    /* PICKLEBALL */
+
+    .pickle-spacer{
+      height: 2px;
+      color: #0d893e;
+      width:20%;
+      background-color: #0d893e;
+    }
+
+
+    /* RESEARCH PHOTO CONTEST */
+
+    .researchPhotoContest {
+      margin-top: 2em;
+    }
+    
+    .researchPhotoContest p{
+      font-size: 1em;
+      line-height: 1.5em;
+    }

@@ -18,5 +18,7 @@ function uri_modern_magazine_enqueues() {
 
 	wp_enqueue_style( 'uri-modern-magazine-style', get_stylesheet_directory_uri() . '/style.css', array( $parent_style ), wp_get_theme()->get( 'Version' ) );
 
+	wp_enqueue_style( 'uri-modern-magazine-issues', get_stylesheet_directory_uri() . '/issues/issues.css', array(), wp_get_theme()->get( 'Version' ) );
+
 }
 add_action( 'wp_enqueue_scripts', 'uri_modern_magazine_enqueues' );
