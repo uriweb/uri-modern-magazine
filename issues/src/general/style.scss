@@ -15,6 +15,14 @@ p.feature-caption.sans-serif{
     font-size:1.75rem;  
 }
 
+/* Fix for photo captions Fall 2025 and before */
+
+p.feature-caption.sans-serif{
+		font-family: "Hind",Arial,sans-serif;
+	  font-size:.95rem;
+	  text-transform: uppercase;
+}
+
 .feature-caption.fancy-caption{
     font-family: "Hind",Arial,sans-serif;
     font-size: 1rem;
