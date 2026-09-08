@@ -10,25 +10,6 @@
     line-height: 34px;
 }
 
-p.feature-caption.sans-serif{
-    font-family: "Hind",Arial,sans-serif;
-    font-size:1.75rem;  
-}
-
-/* Fix for photo captions Fall 2025 and before */
-
-p.feature-caption.sans-serif{
-		font-family: "Hind",Arial,sans-serif;
-	  font-size:.95rem;
-	  text-transform: uppercase;
-}
-
-.feature-caption.fancy-caption{
-    font-family: "Hind",Arial,sans-serif;
-    font-size: 1rem;
-    line-height: 125%;
-}
-
 .homepage-promo {
     font-size: .8rem;
     color: #555;
@@ -73,17 +54,41 @@ h1.special-heading{
   color: #2277b3;
 }
 
-.feature-caption.photo-credit{
-  font-family: "Hind",Arial,sans-serif;
-  font-size:.95rem;
-  text-transform: uppercase;
-}
-
 .p-question{
   font-family:"Hind",Arial,sans-serif;
   font-size:1.25rem;
 }
 
+ /* PHOTO CAPTIONS */
+
+ .feature-caption{
+    margin-top: 1rem;
+}
+
+ .feature-caption.photo-credit{
+    font-family: "Hind",Arial,sans-serif;
+    font-size:.95rem;
+    text-transform: uppercase;
+}
+
+.feature-caption.fancy-caption{
+    font-family: "Hind",Arial,sans-serif;
+    font-size: 1rem;
+    line-height: 125%;
+}
+
+p.feature-caption.sans-serif{
+    font-family: "Hind",Arial,sans-serif;
+    font-size:1.75rem;  
+}
+
+/* Fix for photo captions Fall 2025 and before */
+
+p.feature-caption.sans-serif{
+    font-family: "Hind",Arial,sans-serif;
+    font-size:.95rem;
+    text-transform: uppercase;
+}
 
 /* LAYOUT STYLES */
 
@@ -187,7 +192,7 @@ font-family: "Georgia",Arial,sans-serif;
     padding-left: 28px;
 }
 
-.case-banner a:before{
+.case-banner a::before{
     position: absolute;
     left: 0;
     top: 2px;
@@ -221,7 +226,7 @@ font-family: "Georgia",Arial,sans-serif;
 /* FEEDBACK */
 
 .feedback-body{
-      font-family: "Hind",Arial,sans-serif;
+  font-family: "Hind",Arial,sans-serif;
   font-size:.95em;
   line-height: 34px;
   font-weight: 300;
