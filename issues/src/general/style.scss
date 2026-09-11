@@ -2,7 +2,7 @@
         GENERAL STYLES
    ============================== */
 
-    /* TEXT & FONT STYLES */
+  /* TEXT & FONT STYLES */
 
 .sans-serif-text{
     font-family: "Hind",Arial,sans-serif;
@@ -22,6 +22,11 @@
 p.sans-serif{
   font-family: "Hind",Arial,sans-serif;
   font-size:1.2rem;
+}
+
+.sans {
+  font-size: 1rem;
+  font-family: Hind, sans-serif;
 }
 
 .special-text a{
@@ -59,6 +64,12 @@ h1.special-heading{
   font-size:1.25rem;
 }
 
+.cl-boxout h1 {
+  line-height: 1.5;
+}
+
+
+
  /* PHOTO CAPTIONS */
 
  .feature-caption{
@@ -90,24 +101,55 @@ p.feature-caption.sans-serif{
     text-transform: uppercase;
 }
 
+
+/* IMAGES */
+
+.wp-block-image figure {
+  padding-left: 0;
+  padding-right: 0;
+}
+.wp-block-image img {
+  display: block;
+  margin-bottom: 0;
+}
+.wp-block-image figcaption {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/* Hero image classes */
+
+.cl-hero.n .still {
+  background-position: 50% 0;
+}
+.cl-hero.ne .still {
+  background-position: 100% 0;
+}
+.cl-hero.e .still {
+  background-position: 100% 50%;
+}
+.cl-hero.se .still {
+  background-position: 100% 100%;
+}
+.cl-hero.s .still {
+  background-position: 50% 100%;
+}
+.cl-hero.sw .still {
+  background-position: 0 100%;
+}
+.cl-hero.w .still {
+  background-position: 0 50%;
+}
+.cl-hero.nw .still {
+  background-position: 0 0;
+}
+
+
 /* LAYOUT STYLES */
 
 .centered-container{
   margin: 0 auto;
   text-align:center;
-}
-
-.breakout{
-  width: 100vw !important;
-  position: relative !important;
-  left: 50% !important;
-  margin-left: -50vw !important;
-}
-
-#uri-blue-breakout{
-  border-left: 5px solid #2277b3;
-  background-color: #d6ebfb;
-  padding:2em;
 }
 
 .keaney-spacer{
@@ -130,6 +172,65 @@ p.feature-caption.sans-serif{
 .compact{
   margin: 0;
 }
+
+/* Breakout Blocks */
+
+.breakout.block {
+  margin-bottom: 3rem;
+  background: #eee;
+  padding: 3rem 0;
+}
+
+.breakout.block.fitted {
+  margin-bottom: 0;
+}
+
+.breakout.block .cl-metric {
+  margin-bottom: 0;
+}
+
+.breakout{
+  width: 100vw !important;
+  position: relative !important;
+  left: 50% !important;
+  margin-left: -50vw !important;
+}
+
+#uri-blue-breakout{
+  border-left: 5px solid #2277b3;
+  background-color: #d6ebfb;
+  padding:2em;
+}
+
+/* Columns */
+
+.cols2 {
+  column-count: 2; 
+  column-gap: 2rem;
+  column-width: 35ch;
+  font-size: 1rem;
+  margin-bottom: 3rem;
+}
+
+.cols2 p { 
+  display: inline-block; 
+  width: 100%; 
+}
+
+.column-font {
+  font-size: 1rem;
+}
+
+/* Tiles */
+
+.cl-tiles.tight {
+  grid-column-gap: 1%;
+}
+
+#tiled-imgs{
+  margin-bottom: 1rem;
+}
+
 
 
 /* QUOTE STYLES */
@@ -169,6 +270,12 @@ font-family: "Georgia",Arial,sans-serif;
   }
 }
 
+@media only screen and (max-width: 425px) {
+  #quote-body-mobile{
+font-size: 24px;
+    line-height: 35px;
+  }
+}
 
 /* CASE BANNER */
 
@@ -220,6 +327,27 @@ font-family: "Georgia",Arial,sans-serif;
 
 .cl-promo.rhody-plate .cl-promo-micro-content-wrapper{
   background: #2277b3;
+}
+
+
+/* BOOKSHELF */
+
+.bookshelf-author, .bookshelf-title {
+  font-size: 1rem;
+  font-family: Hind, sans-serif;  
+}
+.bookshelf-title {
+  font-style: italic; 
+}
+
+/* Bookshelf display posts */
+
+.bookshelf-recent ul.display-posts-listing li.listing-item img {
+  max-width: 240px;
+}
+
+ul.display-posts-listing.bookshelf li.listing-item img {
+  width: 100px;
 }
 
 
@@ -286,6 +414,55 @@ p.quote-cite{
   font-size:.90em;
   color: #888;
 }
+
+
+/* BLOCK EDITOR */
+
+/* Add space to margin */
+
+.add-margin .wp-block-column {
+margin: 0 0 0 3%;
+}
+
+.add-margin .wp-block-column:first-child {
+  margin: 0;
+}
+
+
+
+/* NEWS TICKER */
+
+.breakout.block#news{
+  background-color: #d6eeff;
+}
+
+.news-ticker {
+  color:#000;
+  font-family: "Hind",Arial,sans-serif;
+  font-size: .95rem;
+  padding: .5rem .7rem 0 0; 
+}
+
+.news-ticker h3 {
+  color:#002147;
+  font-size: .9rem;
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+.news-ticker p {
+  line-height: 1.3;
+  font-weight: 500;
+}
+
+.cl-tiles img#news-icons{
+  padding-bottom:1rem;
+}
+
+.social-insta{
+  vertical-align: middle;
+}
+
 
 
 /* FULL IMAGE BACKGROUND SECTION */
