@@ -2,9 +2,9 @@
 
 URI Modern Magazine is a WordPress theme designed for the University of Rhode Island Magazine site. It is a child theme of URI Modern.
 
-## What's new in 1.2.4
+## What's new in 1.2.5
 
-URI Modern Magazine 1.2.4 is a patch release that includes legacy styles of past issues. 
+URI Modern Magazine 1.2.5 includes customized styles for the Summer 2026 issue. 
 
 
 ## How do I get set up?
@@ -25,5 +25,5 @@ URI Modern Magazine 1.2.4 is a patch release that includes legacy styles of past
 Contributors: Brandon Fuller, Sarah Pucino  
 Tags: themes  
 Requires at least: 4.0  
-Tested up to: 6.9.4  
-Stable tag: 1.2.4  
+Tested up to: 7.0.4  
+Stable tag: 1.2.5  
